@@ -17,3 +17,11 @@ print('Dictionary in ascendin order by value(number) : ', sorted_d)
 sorted_d_reverse = sorted(d.items(), key = operator.itemgetter(1), reverse = True)
 print('Dictionary in descending order by value(number) : ', sorted_d_reverse)
 
+#Write a Python program to add a key to a dictionary.
+
+d = {0: 10, 1: 20}
+print(f"Initial dictionary: {d}")
+
+d.update({2:30})
+print(f"dictionary after update: {d}")
+
